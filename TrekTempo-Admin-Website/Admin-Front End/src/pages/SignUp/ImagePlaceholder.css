@@ -1,0 +1,40 @@
+
+.frame-child30,
+.frame-child31 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 323px;
+  height: 471.1px;
+  object-fit: cover;
+}
+.frame-child31 {
+  top: 329px;
+  left: 1px;
+  width: 318px;
+  height: 229px;
+  z-index: 1;
+}
+.feature-icons-row-parent,
+.image-2-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.image-2-icon {
+  top: 27px;
+  left: 15px;
+  width: 292px;
+  height: 536px;
+  object-fit: cover;
+  z-index: 3;
+}
+.image-placeholder {
+  height: 563px;
+  width: 323px;
+  position: relative;
+  max-width: 100%;
+}

@@ -1,0 +1,55 @@
+name: travel_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.2.1
+  http: ^1.2.2
+  googleapis: ^13.2.0
+  googleapis_auth: ^1.1.0
+  cupertino_icons: ^1.0.6
+  translator: ^1.0.0
+  another_carousel_pro: ^1.0.2
+  loading_animation_widget: ^1.3.0
+  url_launcher: ^6.3.1
+  carousel_slider: ^5.0.0
+  image_picker: ^1.1.2
+  share_plus: ^10.0.3
+  shared_preferences: ^2.3.2
+  web_socket_io: ^0.0.4
+  web_socket_channel: ^3.0.1
+  path: ^1.9.0
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.10.0  
+  flutter_lints: ^3.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/AppIcon.png"
+
+flutter:
+  uses-material-design: true 
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: CuteEaster
+      fonts:
+        - asset: assets/fonts/CuteEaster.ttf
+
+    - family: ShortBaby
+      fonts:
+        - asset: assets/fonts/ShortBaby.ttf

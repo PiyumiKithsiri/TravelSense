@@ -1,0 +1,100 @@
+h2 {
+  text-align: center;
+  font-size: 48px; /* Larger title size */
+}
+
+.all-accommodation-container {
+  padding: 20px;
+}
+
+.accommodation-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.accommodation-card {
+  background: linear-gradient(-89.82deg, #297f99, #3090ad 64.5%, #54c2e4);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden; /* Ensure that contents don't overflow */
+}
+
+.accommodation-card h3 {
+  margin: 0 0 8px;
+}
+
+.accommodation-card p {
+  margin: 0;
+}
+
+.accommodation-card img {
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px;
+  margin-bottom: 16px; /* Add some spacing below the image */
+}
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.confirm-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.confirm-dialog {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.confirm-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.confirm-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
